@@ -1,2 +1,155 @@
 We will be using the Boston Major
 league id = 4874
+
+result
+  players
+  List of players in the match.
+    account_id
+    32-bit account ID
+
+    player_slot
+    See #Player Slot below.
+
+    hero_id
+    The hero's unique ID. A list of hero IDs can be found via the GetHeroes method.
+
+    item_0
+    ID of the top-left inventory item.
+
+    item_1
+    ID of the top-center inventory item.
+
+    item_2
+    ID of the top-right inventory item.
+
+    item_3
+    ID of the bottom-left inventory item.
+
+    item_4
+    ID of the bottom-center inventory item.
+
+    item_5
+    ID of the bottom-right inventory item.
+
+    kills
+    The amount of kills attributed to this player.
+
+    deaths
+    The amount of times this player died during the match.
+
+    assists
+    The amount of assists attributed to this player.
+
+    gold
+    The amount of gold the player had remaining at the end of the match.
+
+    last_hits
+    The amount of last-hits the player got during the match.
+
+    denies
+    The amount of denies the player got during the match.
+
+    gold_per_min
+    The player's overall gold/minute.
+
+    xp_per_min
+    The player's overall experience/minute.
+
+    gold_spent
+    The amount of gold the player spent during the match.
+
+    hero_damage
+    The amount of damage the player dealt to heroes.
+
+    tower_damage
+    The amount of damage the player dealt to towers.
+
+    hero_healing
+    The amount of health the player had healed on heroes.
+
+    level
+    The player's level at match end.
+
+    ability_upgrades
+    A list detailing a player's ability upgrades.
+      ability
+      ID of the ability upgraded.
+
+      time
+      Time since match start that the ability was upgraded.
+
+      level
+      The level of the player at time of upgrading.
+
+    additional_units
+    Additional playable units owned by the player.
+      unitname
+      The name of the unit
+
+      item_0
+      ID of the top-left inventory item.
+
+      item_1
+      ID of the top-center inventory item.
+
+      item_2
+      ID of the top-right inventory item.
+
+      item_3
+      ID of the bottom-left inventory item.
+
+      item_4
+      ID of the bottom-center inventory item.
+
+      item_5
+      ID of the bottom-right inventory item.
+
+  radiant_win
+  Dictates the winner of the match, true for radiant; false for dire.
+
+  duration
+  The length of the match, in seconds since the match began.
+
+  start_time
+  Unix timestamp of when the match began.
+
+  match_id
+  The matches unique ID.
+
+  match_seq_num
+  A 'sequence number', representing the order in which matches were recorded.
+
+  tower_status_radiant
+  See #Tower Status below.
+
+  tower_status_dire
+  See #Tower Status below.
+
+  barracks_status_radiant
+  See #Barracks Status below.
+
+  barracks_status_dire
+  See #Barracks Status below.
+
+  first_blood_time
+  The time in seconds since the match began when first-blood occurred.
+
+  picks_bans
+  A list of the picks and bans in the match, if the game mode is Captains Mode.
+
+  is_pick
+  Whether this entry is a pick (true) or a ban (false).
+
+  hero_id
+  The hero's unique ID. A list of hero IDs can be found via the GetHeroes method.
+
+  team
+  The team who chose the pick or ban; 0 for Radiant, 1 for Dire.
+
+  order
+  The order of which the picks and bans were selected; 0-19.
+
+Why we process our own data:
+Could do match ups of player vs players across multiple tournaments for comparison
+Could do team vs team match ups see what heroes beat each team
+Time series data (the growth of a player or the shift in what they play)

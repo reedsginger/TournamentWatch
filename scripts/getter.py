@@ -17,7 +17,7 @@ for i in lst:
 	while (True):
 		try:
 			r2 = requests.get(i)
-			l2_temp = re.findall('http://cdn.dota2.com/apps\/dota2/images/heroes/.*_full.png',r2.content)
+			l2_temp = re.findall('http://cdn.dota2.com/apps/dota2/images/heroes/.*_full.png',r2.content)
 			list2.append(l2_temp[0])
 			print l2_temp[0]
 			break

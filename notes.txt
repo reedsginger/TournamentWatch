@@ -153,3 +153,34 @@ Why we process our own data:
 Could do match ups of player vs players across multiple tournaments for comparison
 Could do team vs team match ups see what heroes beat each team
 Time series data (the growth of a player or the shift in what they play)
+
+player_stats table
+account_id int,
+side text,
+team text,
+hero_id int,
+item_0 int,
+item_1 int,
+item_2 int,
+item_3 int,
+item_4 int,
+item_5 int,
+backpack_0 int,
+backpack_1 int,
+backpack_2 int,
+kills int,
+deaths int,
+assists int,
+last_hits int,
+denies int,
+gold_per_min int,
+xp_per_min int,
+level int,
+hero_damage int,
+tower_damage int,
+hero_healing int,
+gold int,
+gold_spent int,
+win bool,
+leagueid int,
+match_id bigint

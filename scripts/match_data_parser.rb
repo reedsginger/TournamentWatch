@@ -19,10 +19,10 @@ games["result"]["matches"].each do |game|
   radiant_win = data["result"]["radiant_win"]
   leagueid = data["result"]["leagueid"]
 
-  match_ids = conn.exec("SELECT match_id FROM player_stats").values
+  match_ids = conn.exec("SELECT match_id FROM player_stats WHERE match_id = #{match_id}").values
   match_ids.flatten!
 
-  if !match_ids.include?(match_id.to_s)
+  if match_ids.size == 0
     data["result"]["players"].each do |player|
       if player["player_slot"] & 128 == 128
         team = dire_name

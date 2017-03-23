@@ -35,6 +35,18 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
+-- Name: id_name; Type: TABLE; Schema: public; Owner: eckhaf
+--
+
+CREATE TABLE id_name (
+    account_id bigint,
+    name text
+);
+
+
+ALTER TABLE id_name OWNER TO eckhaf;
+
+--
 -- Name: player_stats; Type: TABLE; Schema: public; Owner: eckhaf
 --
 
@@ -72,6 +84,435 @@ CREATE TABLE player_stats (
 
 
 ALTER TABLE player_stats OWNER TO eckhaf;
+
+--
+-- Data for Name: id_name; Type: TABLE DATA; Schema: public; Owner: eckhaf
+--
+
+COPY id_name (account_id, name) FROM stdin;
+162973841	DarkSlider
+68712169	Имею немало хромосом
+374393199	jumpick
+113116918	Ahi11es
+200910821	Energy
+58830734	ahh-hooooole
+173812003	Happy ^.^
+116049511	Ale_x. <3
+135344018	Ochkastiy Macho
+121592459	Twitch.tv/SunShineNRJ_
+189120052	E.Y.¡¡LeWy!!
+79417687	MA4O
+219837606	Kazreth
+194531012	iG.BurNIng
+154442036	Random Boy
+363106270	X-24
+127642837	EF
+152925363	ORIGON
+173120855	XIII
+245696009	третья степень БАЛДЕЖА
+95575883	К Р А С U В О
+146043351	HellCat
+165312758	ТОП ЧСВ КОМАНДЫ!
+42095301	GideoN ツ
+130960821	Legenda
+144527546	GOLD
+203978257	-27 +24
+163073492	joSeline
+219232039	Pistolabanana
+331499470	BLEEEEEEEEEEEAT
+161713834	Nevermore
+368276751	iuyiytu
+118760009	WooF
+122699057	murrain
+134822270	kuibkuib
+179909638	zzzzzzzzzzz
+90515852	Castor
+171615807	cherepaha
+300194179	KaelThass
+140862600	MypaBe1
+64589212	netwost
+109213761	Nerosredking
+206770614	n1ck|ROAD2LEM
+359381453	Кот
+172147987	D1EG0
+341614943	_FEISEN₪
+151666641	impossible
+197094381	Shinigami-Sama
+411544500	big_han_boss
+128640262	dohteM [v2.0]
+34312175	KawaiI
+123197601	NDS♎
+284430278	☛ω1¢ked☚
+174864745	qt
+297712579	HUP_HAP
+145291168	sly
+112700218	NeMaN™
+356402461	kms po pts
+410027017	BPArCuCTeMbl
+389976910	Happy -Enotik
+86173235	Nevermore
+144752130	Blinshik
+331267048	noysh♡L
+282884946	CosmiC
+130259668	Нулевый
+307782771	Clutch
+87886245	Imed
+94102571	{ISW}VodaNadMorem
+174002794	MellodKills
+207968588	rename
+303261718	Lombardi
+135867234	Nyanta
+231007042	Www.serranas19.com
+216231730	Taboo
+245792300	el agtamare sigue al  mando
+224523970	Zer0Raiser
+306038147	MasterMinD-
+313026477	Liquid.Дилан  ϟ
+71243231	Hmarka
+173845679	FIRULAIS
+4002084	.kOs
+143074267	YYmi
+366733308	El Patron
+124631081	< blank >
+292921835	united we dance
+112050538	PowerDrive
+67437049	.total
+398856631	Anakin
+157172910	АРCЕнМОХНАТЫйЧЛЕН
+141331254	КорИлиПОшелНахуй
+402263855	Black Night
+96993817	TryHard @ make IT  BIMBA xD
+97195406	TWENTY ONE PILOTS
+349929288	♣♠•zed•♠♣
+103878724	Mark Fiend
+243074871	Heisenberg
+34968108	Bloodyshka
+208227362	getoutmyway
+150446728	Veteran Dota2
+194851113	DoN0tKnow
+302221155	device
+100676579	™♫☹Synch®o☺Vitals☹♫™
+120555613	ЗАЙК НЕВЪЕЖЯЙК
+100654920	Nyx Nyx Nyx
+142140782	Not This Time !
+135881344	VEGAtable
+241111035	Lexus(carry)
+51470935	twitch.tv/zlu4ko
+342055176	Rose-
+125111734	G-Max
+376935313	BH
+341565066	- Mag God #RT4K
+167733592	gakusei-.
+151000280	weetzy
+180125024	ThuG
+112105115	fghf
+304843365	Joker ツ
+185515361	B-RabbiT
+350244126	Neylo
+86897018	ＳＥＮＫＡＧＥ-
+131157415	Call Me Eluney
+115624665	L-SCP 5646
+148871812	Call Me Exodo™
+99512264	Since1985
+127286443	Доброжилатель
+195245782	ALeks_Sashka
+212646259	сексуальный гусь
+303371448	suslik
+327091716	Only_profy
+402956025	fckIT
+396819731	Satana#666
+172877850	Emilia Clarke
+219048469	DreamerGame
+178182054	AniSman
+407764501	< blank >
+49622438	By_Nemetz
+144316195	EternaLight CSGO500
+371200645	Lucky_Lucky
+327005097	-jS- "f58"
+168870006	Ray
+113203844	CitwySwy
+245252268	Senpai. ♥
+117742102	Oops
+81923597	vvm
+181801892	СТРИМЕР СЕРГЕЙ
+274101796	Sainds
+117885112	ColdArt
+92759756	ПИЗДА ДЕРЕЗДА
+365524157	nazik
+189746836	u66
+190317491	Alexa
+190697859	DeX-
+179942899	Come$omeAll
+180688400	Smile
+232675139	Кусочек ноги
+130236984	HEBEP_B_MOPE
+141207965	SnOvA
+227379075	Данька
+217085641	РозовыйФламинго
+240287475	МаслоМуха
+124131758	[N]oisy✪Boy
+213411426	[GG] $Niko$ 💪
+153122108	Meloman
+145444600	MUFASSA
+123388478	WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+160218047	CrownlesSs
+376763974	Gavatavan
+401962655	Young_lt
+123778030	Shkipa
+203887676	LivingFear | Gamdom.com
+165626280	♥Arisha♥
+330968282	@۩۩@ IIIaMaH @۩۩@
+212030353	KOKORI
+307496933	DaR[WiN]
+169881170	~EeOneGuy~
+250996373	fghrty
+134626454	SMOKE
+120259960	jk2
+172679028	Heyo
+184829798	Ghhhhhhhh
+158735520	Oops
+98784017	NICE TEAM
+327789871	Drago cr
+345014014	SASHA7179
+270987836	0 помощи
+203858804	radi4nce
+373170360	Fuskzis Makaronina
+63830642	Việt Nam có hiệu lực
+93446110	im actually so похуйm actually so похуй
+89031654	JeySee
+176094685	Jacket
+396288426	diffucultnotatio
+1226514	СКАЗОЧНЫЙ ДОЛБАЕБ
+236023681	Evil Cat
+287550648	Masterinomeister:3
+139969077	★★★★★yλe=eλe
+151591385	Expoz
+320756069	zigazaga
+256907560	Trawiani ku!
+411624149	MuteAllChat^_^
+146346035	RAGNAROS
+229637541	#505|Mega Pisos
+373949922	Ilyshk0
+161666257	ЖопоЧлен
+87181525	BiT
+175750568	semaMonkeyDLuffy
+110267470	Noob Saibot
+146506076	WhyAlwaysMe??
+115834381	ypcaHAnpuope
+90137869	Kaelthasthas
+126278915	`Foka
+17693907	odditY`
+68437812	MVP.QO
+175098786	SMN(5)
+412798476	MeganFox
+348916147	Rdeo 0/
+116529162	Avraam
+362961178	[YT] SHаMан [TWITCH]
+39282375	Fider
+412219471	TUFFY
+321157026	Doge
+128352240	JUREC
+216814381	ニャー
+165313654	♪буря Грис
+164706994	K-k-k-kawaii ♥
+135581784	Eson
+389315058	CHANGE
+93339306	h0gg3r
+108204984	Bepo
+131316405	KR!$
+233590190	και πάλι ένα
+84302604	Timenew
+380762591	Pipisьka
+113702394	GG.PWNZ.TRYNAGIB1999
+122353172	Twixxer
+251746320	Misanthrope
+117904815	KonanDoyle
+154151728	pgn^
+183635979	YMFC
+190179094	charlie dont surf
+93742240	brummagem
+116306618	†HOR/Core player!
+112685596	www.twitch.tv/akeloidtv
+117552635	Messenger of NATO
+116048981	RAZORVYEBALO
+141987639	Crranacle v.2.0
+186128564	VolKra (mid only)
+355443144	Владимир из Ижевска
+353537720	Takas
+106097038	Deja Vu
+123531437	Slipp kickback.com
+96548619	PPaP CSGO500
+402318463	AlwaysB@mboe
+194994193	RakSar
+93118963	Xsq†
+162510920	Arunreal
+122444743	Léroin
+144596831	Wrongdonk4k
+100153922	GODAna
+181057498	RoN Tack Sebe
+124751870	BAZOoOKA
+79738241	Cammy ツ
+156255848	Joe ◢◤♫ ♬ ♪ ♩ ♭ .
+378314925	SayonaraBoy
+140876586	Garya1337
+290591066	Marshall Mathers III ︻デ═
+154900334	Quade9uy
+134381023	PREDOKX
+321399028	Antuan
+238250074	Твоя мамка
+57255658	SoRRy
+163143446	Sho0oreeSlav
+115823843	Sh1zZz0
+338208351	テンスキーはアミンを愛し♥
+167791523	Ｘ Ｉ Ｒ  Ｏ
+48596171	Sechenov I.M.
+395317226	Avesounde
+233532837	Как вы заебали...
+388187892	Kudesn1k -N- PhysX
+197550420	We lost
+127521324	ZloyEnot
+376935527	nastya
+178096774	Попка Айриночки
+279239838	スたソ
+371847918	#Вітя вдуй їй
+185672472	AtlantoSS
+383611278	twitch.tv/qusst
+55647617	Jörgen
+85311621	Valto
+67694898	iIMPRO
+139519017	love
+184995283	aa.tompik
+93550841	キラ
+107245314	sin-san
+405613937	cenra
+188543603	Misha2003
+278953574	actually so pohui
+93548682	☢
+322074161	zxcXUY
+305217554	Jhordy
+307386341	GNOMUS
+279195018	f3RRUMiGHT
+158575025	Supermind Ẍ Ў Ї ツ
+95957801	Kayf
+195125616	SYG.בעל זבוב ™
+393637528	Ezo /smurFING/
+154441766	LUUUUZ!!!!!!!
+161828915	Speleo
+232427362	rec01l
+208837777	твоя мамка
+172320424	Raijin(Muted)
+326290492	ВсЕ УмРуТ а Я гРеЙфРуКт
+375391762	Гриня
+385541409	Techies
+181634995	kara"w0w
+268988804	LOKI
+188354170	Сергей машина
+191618035	•11oY• ^_^
+192375187	niksteys v1.0
+177424746	LoveRoksi
+197634248	agent gabena
+342604450	Лёха
+342969369	?by Pan[I]ca#.Skill...
+364946988	Пизда тебе бустер
+80980797	what does the Dima says
+305031185	jango
+103403345	Rocky123
+413721943	Hystrix
+395379356	pro
+233266119	True!
+382656487	Aomine Daiki
+102461142	Harald IX
+349616927	Go 1 x 1 noob
+293384390	Apacho
+176627086	dantesss
+278487280	team
+197510441	Shingen
+106487082	Lord
+192439810	Stayzeyd
+115074042	chucpe
+409522117	._.
+129863467	AzelS
+115108052	Dr@kedog
+121245641	6AHDNT
+169295312	TRY2KILLME
+378350841	Jesus doesnt love met love me
+390687087	ika
+396571442	Tor
+118517951	P.L.U.R.
+116048505	Q.Milk [BLR]
+208692773	the evil black dolphin[4]
+111739132	BESdikiy
+206669156	Revolution-
+64559473	Mag
+368242481	Donald Trump
+350297336	@AramisTo-Slow
+317661974	F1too!
+43106238	DOZER
+407790818	KisaAKali
+171491950	GGGFHGG
+233331329	✪ Wifi4ik ✪
+242114251	Welle
+342037992	MMR love you
+370849080	Necr.OMEN
+200231960	ЧМОБСТЕР
+148884571	Sansa Stark
+365080748	kill la kill
+196906230	Farmior
+113442553	Lokithozz
+169466098	Serafim.killer
+336748775	Stronger✪
+105739129	DNIWE EBANOE
+108343133	BULDOZER
+129346757	iPanda
+157375058	• А-n-T-i-B-i-O-T-i-K•
+140882375	ЕбатьКолотить
+133820406	Road v Pomoiku
+113647925	Avici Single
+384816921	100% GCD Hacker
+354074343	ЖЕКА ФАНФУРИК
+128722334	Хочу_Сменить_Ник
+357648333	Standin.ROMPOMPOMPOM
+303758417	DIMABOSS
+393624122	EgorKaTheSlayeR
+108047079	Mortred-
+314455354	IamDimaEvil
+111082508	ватакат
+349617169	RocketRaccoon
+208431804	RedSuns.slavNk
+276935314	Misanthrope
+98092287	taichou uebishe
+98167706	señor trashcan
+125498547	i am so Sorry,guys
+89428883	paiN
+176988393	Mikey
+60943014	Survival of the Fittest
+400157777	=)
+91932652	flw
+100058342	Penta.NaoTomori
+108380255	-7
+39776991	Ab sama
+134978854	ToaDBosS (Solo).
+92478080	Я Ξ ₪ Ξ ƍ Ѧ D Ξ
+113930774	Blizzard.
+278162492	Hola Senorita!
+136401006	Darkness
+50565593	Elliot "gιζεε" Alderson
+225761038	Trash
+334336682	Dcc-Y2k
+382825030	R3SPECT
+23883296	NoiA
+21265941	H4nn1
+100317750	Era
+26682464	Ryze
+8712306	Trixi
+86738694	qojqva
+97590558	Ace
+24009418	Buugi
+43619695	HeStEJoE-RoTTeN
+42989814	13abyKnight
+304450539	Yung
+\.
+
 
 --
 -- Data for Name: player_stats; Type: TABLE DATA; Schema: public; Owner: eckhaf
